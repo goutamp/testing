@@ -1,6 +1,6 @@
 ---
 vpc_endpoint: []
-acc_no: &acc_no 45516128232
+acc_no: &acc_no xxxxxxxx
 security_group_tags:
   bu:      "test"
   product: "nets"
