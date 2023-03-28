@@ -1,0 +1,4 @@
+security_group_tag:
+  bu: good
+  type: rnd
+vpc_endpoint: tst
