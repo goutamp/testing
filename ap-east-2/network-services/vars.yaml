@@ -1,0 +1,15 @@
+acc_no: '&acc_no xxxx'
+excluded_AZs: -"ap-east"
+security_group_tags:
+  acc-no: xxxxxxxx
+  app-id: app vpc
+  bu: 1.2.3.4
+  environment: dev
+  owner: xxxxxxxx
+  product: Username
+  role: test
+  type: Password
+shared_tags:
+  Env: dev
+vpc_endpoint:
+- s3
