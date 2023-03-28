@@ -1,0 +1,15 @@
+vpc_endpoint: []
+acc_no: &acc_no xxxxxxxx
+security_group_tags:
+  bu:      "test"
+  product: "nets"
+  type:    "rnd"
+  app-id:   "app vpc"
+  role:     "test"
+  acc-no:  *acc_no
+  environment: "dev"
+  owner: *acc_no
+shared_tags:
+    Env: dev
+excluded_AZs:
+    - "ap-sou"
